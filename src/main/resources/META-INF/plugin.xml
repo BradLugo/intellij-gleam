@@ -1,18 +1,17 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.bradlugo.intellijgleam</id>
-    <name>intellij-gleam</name>
-    <vendor>bradlugo</vendor>
+    <name>Gleam</name>
+    <vendor>Brad Lugo</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.bradlugo.intellijgleam.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+    <fileType
+            name="Gleam"
+            language="Gleam"
+            implementationClass="com.github.bradlugo.intellijgleam.GleamFileType"
+            extensions="gleam"
+            fieldName="INSTANCE" />
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.bradlugo.intellijgleam.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
 </idea-plugin>
