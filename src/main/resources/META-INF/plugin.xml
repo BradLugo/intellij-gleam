@@ -4,7 +4,7 @@
     <name>Gleam</name>
     <vendor>Brad Lugo</vendor>
 
-    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.ultimate</depends>
 
     <extensions defaultExtensionNs="com.intellij">
     <fileType
@@ -13,5 +13,7 @@
             implementationClass="com.github.bradlugo.intellijgleam.GleamFileType"
             extensions="gleam"
             fieldName="INSTANCE" />
+    <!--suppress PluginXmlValidity -->
+    <platform.lsp.serverSupportProvider implementation="com.github.bradlugo.intellijgleam.lsp.GleamLspServerSupportProvider"/>
     </extensions>
 </idea-plugin>
