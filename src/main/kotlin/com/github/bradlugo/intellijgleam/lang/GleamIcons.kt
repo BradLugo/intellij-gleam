@@ -1,4 +1,4 @@
-package com.github.bradlugo.intellijgleam
+package com.github.bradlugo.intellijgleam.lang
 
 import com.intellij.openapi.util.IconLoader
 import javax.swing.Icon

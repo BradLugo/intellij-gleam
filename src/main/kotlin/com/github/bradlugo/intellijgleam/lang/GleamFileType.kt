@@ -1,4 +1,4 @@
-package com.github.bradlugo.intellijgleam
+package com.github.bradlugo.intellijgleam.lang
 
 import com.intellij.openapi.fileTypes.LanguageFileType
 import com.intellij.openapi.vfs.VirtualFile

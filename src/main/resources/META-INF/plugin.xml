@@ -10,7 +10,7 @@
     <fileType
             name="Gleam"
             language="Gleam"
-            implementationClass="com.github.bradlugo.intellijgleam.GleamFileType"
+            implementationClass="com.github.bradlugo.intellijgleam.lang.GleamFileType"
             extensions="gleam"
             fieldName="INSTANCE" />
     <!--suppress PluginXmlValidity -->

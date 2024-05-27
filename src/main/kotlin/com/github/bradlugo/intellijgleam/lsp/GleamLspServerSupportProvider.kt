@@ -2,7 +2,7 @@
 
 package com.github.bradlugo.intellijgleam.lsp
 
-import com.github.bradlugo.intellijgleam.GleamIcons
+import com.github.bradlugo.intellijgleam.lang.GleamIcons
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.vfs.VirtualFile
 import com.intellij.platform.lsp.api.LspServer
